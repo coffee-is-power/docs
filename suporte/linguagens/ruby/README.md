@@ -9,9 +9,8 @@ description: Aprenda a hospedar seu bot, site, api com Ruby na DisCloud!
 Você não deve enviar todos os arquivos de sua aplicação para o `.zip`, existem algumas exceções, elas são:
 
 ```diff
-- Arquivo Gemfile.lock
+- Arquivo Gemfile.lock (Necessário para o Ruby On Rails)
 - Pasta .git
-- Arquivo LICENSE
 ```
 
 > * Dúvidas para encontrar o seu arquivo principal? [Clique aqui](../../faq/arquivo-principal.md#arquivos-principais-gerais)
