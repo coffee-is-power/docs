@@ -45,10 +45,12 @@
   * [Porque não consigo acessar o meu site?](suporte/faq/porque-nao-consigo-acessar-o-meu-site.md)
 * [⚒ Comandos](suporte/comandos/README.md)
   * [api](suporte/comandos/api.md)
+* [🤲 Doações](suporte/doacoes.md)
 
-***
+## API
 
-* [🤲 Doações](doacoes.md)
+* [📡 Usar a API](api/usar-a-api.md)
+* [📝 Rotas (Canal do Discord)](https://discord.com/channels/584490943034425391/1011279647041921204)
 
 ## Sobre
 

@@ -9,15 +9,15 @@ description: >-
 
 ### :dollar: Métodos de Pagamento
 
-<table><thead><tr><th>Método de Pagamento</th><th data-type="checkbox">Disponível via Site</th><th data-type="checkbox">Disponível via Ticket</th></tr></thead><tbody><tr><td><img src=".gitbook/assets/PayPal.png" alt="" data-size="line"> PayPal</td><td>true</td><td>true</td></tr><tr><td><img src=".gitbook/assets/MercadoPago.png" alt="" data-size="line"> Mercado Pago</td><td>true</td><td>true</td></tr><tr><td><img src=".gitbook/assets/pix.png" alt="" data-size="line"> Pix</td><td>false</td><td>true</td></tr></tbody></table>
+<table><thead><tr><th>Método de Pagamento</th><th data-type="checkbox">Disponível via Site</th><th data-type="checkbox">Disponível via Ticket</th></tr></thead><tbody><tr><td><img src="../.gitbook/assets/PayPal.png" alt="" data-size="line"> PayPal</td><td>true</td><td>true</td></tr><tr><td><img src="../.gitbook/assets/MercadoPago.png" alt="" data-size="line"> Mercado Pago</td><td>true</td><td>true</td></tr><tr><td><img src="../.gitbook/assets/pix.png" alt="" data-size="line"> Pix</td><td>false</td><td>true</td></tr></tbody></table>
 
-### <img src=".gitbook/assets/discloudlogo (1).png" alt="" data-size="line"> Comprar via Site
+### <img src="../.gitbook/assets/discloudlogo (1).png" alt="" data-size="line"> Comprar via Site
 
 Acesse o site [discloudbot.com/plans](https://discloudbot.com/plans) e escolha o seu plano.
 
-![](.gitbook/assets/buy-carbon.gif)
+![](../.gitbook/assets/buy-carbon.gif)
 
-### <img src=".gitbook/assets/ticket-logo.webp" alt="" data-size="line"> Comprar via Ticket
+### <img src="../.gitbook/assets/ticket-logo.webp" alt="" data-size="line"> Comprar via Ticket
 
 {% hint style="info" %}
 Se o método de pagamento desejado estiver disponível [via site](doacoes.md#via-site) utilize apenas o **Ticket** se estiver **enfrentando problemas** de pagamento ou quando site estiver **indisponível**.
@@ -25,8 +25,8 @@ Se o método de pagamento desejado estiver disponível [via site](doacoes.md#via
 
 Consulte abaixo para mais detalhes:
 
-{% content-ref url="suporte/faq/ticket.md" %}
-[ticket.md](suporte/faq/ticket.md)
+{% content-ref url="faq/ticket.md" %}
+[ticket.md](faq/ticket.md)
 {% endcontent-ref %}
 
 ### :arrows\_counterclockwise: Renovar um plano
