@@ -1,3 +1,8 @@
+---
+cover: ../.gitbook/assets/api-banner.png
+coverY: 683.9595959595961
+---
+
 # 📡 Usar a API
 
 ## :pencil: Requisitos
