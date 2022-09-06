@@ -1,7 +1,5 @@
 # Bot muito pesado
 
-> Não consigo enviar o zip no Discord porque é muito pesado
-
 ## :wastebasket: Dicas para diminuir o tamanho do projeto
 
 Verifique se as seguintes **pastas** e **arquivos** se encontram no seu projeto e remova-os:
