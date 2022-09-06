@@ -60,3 +60,23 @@ Você pode importar o código a cima em aplicativos como o [Insomnia](https://in
 </div>
 {% endtab %}
 {% endtabs %}
+
+## Fazer o upload de um projeto com a API
+
+<figure><img src="../.gitbook/assets/discloud-api-up.png" alt=""><figcaption></figcaption></figure>
+
+### :pencil:Requisitos
+
+* O seu arquivo .zip deve incluir o [discloud.config](../suporte/faq/discloud.config.md)
+* O seu arquivo .zip deve ter um tamanho `<=100MB`
+
+{% code title="Shell" %}
+```shell
+curl --request POST \
+  --url https://api.discloud.app/v2/upload \
+  --header 'Content-Type: multipart/form-data' \
+  --header 'api-token: DISCLOUD_TOKEN' \
+  --header 'content-type: multipart/form-data; boundary=---011000010111000001101001' \
+  --form file=@/home/diogo/Documents/bot/Archive.zip
+```
+{% endcode %}

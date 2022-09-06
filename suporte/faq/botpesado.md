@@ -2,17 +2,26 @@
 
 > Não consigo enviar o zip no Discord porque é muito pesado
 
-**Como diminuir peso:**\
-&#x20;• Remova o **node\_modules** se possuir;\
-&#x20;• Remova aplicações(como **ffmpeg** que já tem na host);\
-&#x20;• Remova imagens e use links delas.
+## :wastebasket: Dicas para diminuir o tamanho do projeto
 
-**Métodos alternativos:**\
+Verifique se as seguintes **pastas** e **arquivos** se encontram no seu projeto e remova-os:
 
+* **pasta** `node_modules` (apenas disponível em projetos [JavaScript](../linguagens/javascript/#arquivos), não é necessária e a **DisCloud** irá baixar todos os módulos necessários por conta própria)
+* **pasta** `.git` (Não é necessário na **DisCloud**, esta pasta contém todas as informações necessárias para o controle de versão do [Git](../integracao/github-e-gitlab/), pode ser necessário manter localmente se você trabalhar com [Git](../integracao/github-e-gitlab/).
+* **arquivos** `ffmpeg` (você pode instalar o ffmpeg na DisCloud consulte [aqui](discloud.config.md#pacotes-disponiveis-no-apt))
 
-• Se o site não funcionar(ficar parado na tela de carregando): \
-&#x20;• (SOMENTE DOADORES) Faça upload de um bot básico(pelo Discord) em seguida conecte com o github e suba seu por pelo GitHub; \
-&#x20;• (SOMENTE NITRO) Enviar o arquivo do bot em outro canal e enviar o link do anexo no Discord.
+## :file\_folder: O projeto continua pesado
 
-**Se o site funcionar:** \
-&#x20;• (EXCETO GOLD E PLATINA) Use o site para fazer upload e commit, se não conseguir porque a página fica carregando, use .rb no canal do Discord e faça upload pelo site.
+### Métodos alternativos
+
+#### [DisCloud API](../../api/usar-a-api.md)
+
+Se o arquivo `.zip` do seu projeto tiver um tamanho `<=100mb` pode fazer o Upload pela nossa API
+
+<figure><img src="../../.gitbook/assets/discloud-api-up.png" alt=""><figcaption><p>Examplo com Insomnia</p></figcaption></figure>
+
+#### [Transfer.sh](https://transfer.sh/)
+
+Se o arquivo `.zip` do seu projeto tiver um tamanho `>=100mb` pode fazer o Upload pelo [Transfer.sh](https://transfer.sh/)
+
+<figure><img src="../../.gitbook/assets/transfer.sh-example.png" alt=""><figcaption></figcaption></figure>

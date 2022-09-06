@@ -38,7 +38,6 @@
   * [Qual o arquivo principal?](suporte/faq/arquivo-principal.md)
   * [Como reportar um infrator?](suporte/faq/report.md)
   * [Porque meu bot não fica on?](suporte/faq/naoficaon.md)
-  * [Como upar sua aplicação com mais de 8mb](suporte/faq/more8mb.md)
   * [Bot muito pesado](suporte/faq/botpesado.md)
   * ["Você já possui uma conta registrada no sistema"](suporte/faq/2acc.md)
   * [A host aceita o arquivo .env?](suporte/faq/env.md)
